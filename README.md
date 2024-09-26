@@ -4,9 +4,12 @@
 
 ```
 flowchart TD
-    A[Start] --> B{Need to lose weight?}
-    B -->|Yes| C[burn more calories than you consume]
+    A[Losing Weight] --> B{Are you losing weight?}
+    B -->|No| C[lower calorie intake or increase calories burn]
     C --> D[Review Progress]
     D --> B
-    B ---->|No| E[End]
+    B ---->|Yes| E[Continue to maintain]
 ```
+
+####Brief Description
+This chart shows the basic evaluation as to what you need to do to keep losing weight.
